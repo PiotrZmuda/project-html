@@ -176,3 +176,17 @@ h2 {
   background: #edebf0;
   border-radius: 18px;
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: aqua;
+    display: flex;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-photo {
+    display: none;
+  }
+}
