@@ -23,7 +23,7 @@ img {
 .subtitle img {
   width: 249px;
   height: 36px;
-  margin: 20px 0px;
+  margin: 40px 0px 55px;
 }
 
 .container {
@@ -165,7 +165,6 @@ button {
 
 .register :nth-child(2) {
   border-bottom: 3px solid #413fb5;
-  
 }
 
 @media only screen and (max-width: 320px) {
@@ -192,7 +191,7 @@ button {
   .form {
     padding: 0px 14px;
   }
-  .wrapper label{
+  .wrapper label {
     top: -9px;
   }
   .wrapper input {
@@ -213,7 +212,7 @@ button {
     text-decoration-line: underline;
     border: none;
   }
-  .log{
+  .log {
     display: flex;
     flex-direction: column;
   }
@@ -222,16 +221,15 @@ button {
     font-size: 14px;
   }
 
-  .register{
+  .register {
     align-self: center;
   }
 
   .register span {
     font-size: 12px;
-    border:none;
-
+    border: none;
   }
- 
+
   .register :nth-child(2) {
     text-decoration-line: underline;
     border: none;
