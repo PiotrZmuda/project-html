@@ -212,15 +212,26 @@ button {
     text-decoration-line: underline;
     border: none;
   }
+  .log{
+    display: flex;
+    flex-direction: column;
+  }
 
   button {
     font-size: 14px;
   }
 
-  .register {
-    font-size: 12px;
+  .register{
+    align-self: center;
   }
+  
   .register span {
+    font-size: 12px;
+    border:none;
+
+  }
+ 
+  .register :nth-child(2) {
     text-decoration-line: underline;
     border: none;
   }
