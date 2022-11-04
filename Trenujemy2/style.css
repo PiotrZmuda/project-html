@@ -182,13 +182,17 @@ button {
   }
 
   h1 {
+    font-family: "Rubik";
     font-size: 18px;
     padding: 0px;
-    margin: 23px 26px;
+    margin: 20px 11px 30px 11px;
   }
 
   .form {
     padding: 0px 14px;
+  }
+  .wrapper label{
+    top: -9px;
   }
   .wrapper input {
     width: 252px;
