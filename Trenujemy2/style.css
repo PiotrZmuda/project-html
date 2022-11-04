@@ -163,8 +163,9 @@ button {
   margin-top: 10px;
 }
 
-.register span {
+.register :nth-child(2) {
   border-bottom: 3px solid #413fb5;
+  
 }
 
 @media only screen and (max-width: 320px) {
@@ -224,7 +225,7 @@ button {
   .register{
     align-self: center;
   }
-  
+
   .register span {
     font-size: 12px;
     border:none;
