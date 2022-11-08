@@ -1,0 +1,95 @@
+.wrapper-section {
+  width: 1366px;
+}
+.first-section {
+  width: 1366px;
+  height: 768px;
+  background-color: #222426;
+  padding-left: 35px;
+  padding-top: 15px;
+}
+.header {
+  padding-bottom: 71px;
+}
+.header span {
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding-right: 50px;
+}
+
+.header span img {
+  width: 157px;
+  height: 40px;
+  position: relative;
+  top: 13px;
+}
+
+.academy-log img {
+  width: 85px;
+  height: 85px;
+}
+
+.container-content-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-section {
+  width: 620px;
+}
+
+.content :nth-child(1) {
+  width: 725px;
+  height: 150px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.content :nth-child(2) {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.buttons button {
+  width: 304px;
+  height: 78px;
+  background: #ffffff;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #222426;
+  border-color: #ffffff;
+}
+
+.buttons :nth-child(2) {
+  color: #ffffff;
+  background-color: #222426;
+  border-color: #ffffff;
+}
+
+.photos-section img {
+  width: 564px;
+  height: 564px;
+}
