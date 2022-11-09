@@ -1,0 +1,34 @@
+body{
+    margin:0;
+}
+.section-one {
+  width: 100vw;
+  height: 768px;
+
+  background: gray;
+}
+
+.header span img {
+  width: 157px;
+  height: 40px;
+}
+
+.academy-log img {
+  width: 79px;
+  height: 79px;
+}
+.container-content-photo{
+    display: flex;
+
+}
+.photo-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-two{
+    background-color: red;
+    height: 500px;
+    width: 100vh;
+
+}
