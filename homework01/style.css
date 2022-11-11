@@ -111,11 +111,9 @@ body {
   height: 100%;
 }
 
-.square-img img{
-        display: none;
-    
+.square-img img {
+  display: none;
 }
-
 
 @media only screen and (max-width: 1070px) {
   .container-content-photo {
@@ -237,10 +235,10 @@ body {
     height: 52px;
   }
 
-  .photo-section div img{
+  .photo-section div img {
     width: 100%;
   }
-  .square-img img{
+  .square-img img {
     display: block;
     width: 160px;
     height: 160px;
@@ -248,49 +246,42 @@ body {
   }
 }
 
-
 .section-two {
   background-color: red;
   height: 500px;
   width: 100vw;
 }
-.section-two :nth-child(1){
-    font-family: 'Lexend Deca';
-    font-weight: 900;
-    font-size: 106px;
-    line-height: 110px;
-    letter-spacing: -2.5px;
-    color: #222426;
+.section-two div:nth-child(1) {
+  font-family: "Lexend Deca";
+  font-weight: 900;
+  font-size: 106px;
+  line-height: 110px;
+  letter-spacing: -2.5px;
+  color: #222426;
 }
-.section-two :nth-child(2){
-    font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 30px;
-letter-spacing: -0.5px;
+.section-two div:nth-child(2) {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
 
-color: #222426;
-    background-color: aqua;
-}
-
-.section-two :nth-child(3) img{
-    background-color: chartreuse;
-    width: 251px;
-    height: 54px;
+  color: #222426;
 }
 
-.section-two :nth-child(4){
-    font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 38px;
-letter-spacing: -0.5px;
-color: #222426;
-width: 396px;
-height: 3px;
+.section-two div span img {
+  width: 251px;
+  height: 54px;
+}
 
-border: 1px solid #222426;
-
+.section-two div span:nth-child(3) {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  color: #222426;
+  background-color: aliceblue;
 }
