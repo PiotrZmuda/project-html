@@ -105,12 +105,17 @@ body {
   background-color: #222426;
   border-color: #ffffff;
 }
+
 .photo-section img {
   width: 100%;
   height: 100%;
-  /* width: 564px;
-height: 564px; */
 }
+
+.square-img img{
+        display: none;
+    
+}
+
 
 @media only screen and (max-width: 1070px) {
   .container-content-photo {
@@ -187,8 +192,8 @@ height: 564px; */
     justify-content: center;
   }
   .photo-section img {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
   }
 }
 
@@ -231,13 +236,61 @@ height: 564px; */
     line-height: 24px;
     height: 52px;
   }
-  .photo-section img{
+
+  .photo-section div img{
     width: 100%;
   }
+  .square-img img{
+    display: block;
+    width: 160px;
+    height: 160px;
+    background: #121415;
+  }
 }
+
 
 .section-two {
   background-color: red;
   height: 500px;
   width: 100vw;
+}
+.section-two :nth-child(1){
+    font-family: 'Lexend Deca';
+    font-weight: 900;
+    font-size: 106px;
+    line-height: 110px;
+    letter-spacing: -2.5px;
+    color: #222426;
+}
+.section-two :nth-child(2){
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+
+color: #222426;
+    background-color: aqua;
+}
+
+.section-two :nth-child(3) img{
+    background-color: chartreuse;
+    width: 251px;
+    height: 54px;
+}
+
+.section-two :nth-child(4){
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.5px;
+color: #222426;
+width: 396px;
+height: 3px;
+
+border: 1px solid #222426;
+
 }
