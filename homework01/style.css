@@ -172,9 +172,6 @@ body {
     padding-top: 70px;
   }
 
-  .content div :nth-child(1) {
-    padding-bottom: 10px;
-  }
   .buttons {
     display: flex;
     flex-direction: column;
@@ -247,35 +244,55 @@ body {
 }
 
 .section-two {
-  background-color: red;
+  background: #f64746;
   height: 500px;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
-.section-two div:nth-child(1) {
+.section-two-left {
+  width: 35%;
+}
+.section-two-left div:nth-child(1) {
   font-family: "Lexend Deca";
   font-weight: 900;
   font-size: 106px;
   line-height: 110px;
   letter-spacing: -2.5px;
   color: #222426;
+  padding-left: 3%;
 }
-.section-two div:nth-child(2) {
+
+.section-two-left div:nth-child(2) {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.5px;
-
   color: #222426;
+  padding-left: 3%;
+}
+.two-elements {
+  display: flex;
 }
 
-.section-two div span img {
+.two-elements div {
+  /* padding-right: 3%; */
+}
+.arrow {
+  padding-right: 2%;
+}
+.arrow img {
   width: 251px;
   height: 54px;
 }
+.two-elements {
+  align-items: center;
+  padding-right: 5%;
+}
 
-.section-two div span:nth-child(3) {
+.section-two-right div:nth-child(1) {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 900;
@@ -283,5 +300,13 @@ body {
   line-height: 38px;
   letter-spacing: -0.5px;
   color: #222426;
-  background-color: aliceblue;
+  /* text-decoration: none;
+  color: #121415; */
+}
+
+.section-two-right div:nth-child(2) {
+  width: 396px;
+  height: 3px;
+
+  border: 1px solid #222426;
 }
