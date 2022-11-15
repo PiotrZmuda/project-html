@@ -243,15 +243,31 @@ body {
   }
 }
 
+
+
+
+.section-two-wrapper{
+  background: #f64746;
+  height: 507px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 .section-two {
   background: #f64746;
-  height: 500px;
+  /* height: 500px; */
+  /* height: 55%; */
   width: 100vw;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
 .section-two-left {
-  width: 35%;
+  /* width: 30%; */
+  width: 410px;
+  padding-left: 3%;
 }
 .section-two-left div:nth-child(1) {
   font-family: "Lexend Deca";
@@ -260,7 +276,7 @@ body {
   line-height: 110px;
   letter-spacing: -2.5px;
   color: #222426;
-  padding-left: 3%;
+  /* padding-left: 3%; */
 }
 
 .section-two-left div:nth-child(2) {
@@ -271,15 +287,9 @@ body {
   line-height: 30px;
   letter-spacing: -0.5px;
   color: #222426;
-  padding-left: 3%;
-}
-.two-elements {
-  display: flex;
+  /* padding-left: 3%; */
 }
 
-.two-elements div {
-  /* padding-right: 3%; */
-}
 .arrow {
   padding-right: 2%;
 }
@@ -288,10 +298,13 @@ body {
   height: 54px;
 }
 .two-elements {
-  align-items: center;
+ display: flex;
   padding-right: 5%;
+  align-items: flex-end;
 }
-
+.section-two-right{
+  padding-left: 4%;
+}
 .section-two-right div:nth-child(1) {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -310,3 +323,33 @@ body {
 
   border: 1px solid #222426;
 }
+
+
+
+@media only screen and (max-width: 1135px){
+  .two-elements{
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .arrow-img{
+    width: 251px;
+    height: 54px;
+  }
+}
+
+
+@media only screen and (max-width: 880px){
+  .section-two{
+    flex-direction: column;
+    align-items: center;
+  }
+  .two-elements{
+    display: flex;
+    align-items: flex-start;
+    padding: 0%;
+  }
+  .section-two-right{
+    padding-left: 0%;
+  }
+
+  }
