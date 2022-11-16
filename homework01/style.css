@@ -352,7 +352,7 @@ body {
     letter-spacing: -0.02em;
     color: #222426;
   }
-  .left{
+  .left {
     padding: 5% 0%;
   }
   .two-elements {
@@ -360,11 +360,28 @@ body {
     align-items: flex-start;
     padding-left: 3%;
   }
-  .arrow{
+  .arrow {
     padding: 5% 0%;
   }
   .section-two-right {
     padding-left: 0%;
+  }
+  .right div:nth-child(1) {
+    display: none;
+  }
+
+  .second-variable-text {
+    display: inline;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    color: #222426;
+  }
+  .right div:nth-child(2) {
+    width: 100%;
   }
 }
 
