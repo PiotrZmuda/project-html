@@ -301,7 +301,10 @@ body {
 .section-two-right {
   padding-left: 4%;
 }
-.section-two-right div:nth-child(1) {
+.second-variable-text {
+  display: none;
+}
+.right div:nth-child(1) {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 900;
@@ -310,7 +313,7 @@ body {
   letter-spacing: -0.5px;
   color: #222426;
 }
-.section-two-right div:nth-child(2) {
+.right div:nth-child(2) {
   width: 396px;
   height: 3px;
   border: 1px solid #222426;
@@ -334,18 +337,31 @@ body {
 @media only screen and (max-width: 880px) {
   .section-two {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
-  /* .left div:nth-child(1){
+  .left div:nth-child(1) {
     display: none;
   }
-  .variable-text{
+  .variable-text {
     display: inline;
-  } */
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+    color: #222426;
+  }
+  .left{
+    padding: 5% 0%;
+  }
   .two-elements {
     display: flex;
     align-items: flex-start;
-    padding: 0%;
+    padding-left: 3%;
+  }
+  .arrow{
+    padding: 5% 0%;
   }
   .section-two-right {
     padding-left: 0%;
@@ -357,8 +373,8 @@ body {
     width: auto;
     padding: 0% 3%;
   }
-  
-  .left{
+
+  .left {
     padding: 5% 0%;
   }
 
@@ -379,10 +395,23 @@ body {
   .two-elements {
     padding: 0% 3%;
   }
-  .arrow img{
+  .arrow img {
     padding: 6% 0%;
   }
-  .section-two-right div:nth-child(2){
+  .right div:nth-child(2) {
     width: 100%;
+  }
+  .right div:nth-child(1) {
+    display: none;
+  }
+
+  .second-variable-text {
+    display: inline;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222426;
   }
 }
