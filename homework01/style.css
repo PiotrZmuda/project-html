@@ -435,39 +435,177 @@ body {
 
 /* SECTION THREE */
 
-.section-three{
-  width:100vw ;
-  height:768px
+.section-three {
+  display: flex;
+  width: 100vw;
+  height: 768px;
+  justify-content: space-around;
+  align-items: center;
 }
-.content-left div:nth-child(1){
+.content-left {
+  width: 42%;
+  width: 511px;
+}
+.content-left div:nth-child(1) {
   width: 511px;
   height: 202px;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 900;
   font-size: 56px;
   line-height: 68px;
   letter-spacing: -2px;
   color: #222426;
+  /* padding-left: 3%; */
+  padding-bottom: 3%;
 }
-.content-left div span:nth-child(1){
-  font-family: 'Space Mono';
+.content-left div span:nth-child(1) {
+  font-family: "Space Mono";
 }
 
-.content-left div:nth-child(2){
-  width: 511px;
-height: 48px;
+.content-left div:nth-child(2) {
+  /* width: 511px;
+height: 48px; */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #222426;
+}
 
-/* Lexend | Light | 16 */
+.form {
+  width: 510px;
+  /* width: 38%; */
+}
+.form div {
+  padding: 14px 0px;
+  position: relative;
+}
+.form label {
+  /* width: 160px;
+height: 20px; */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: -10px;
+}
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+.form input {
+  /* width: 245px; */
+  width: 220px;
+  height: 48px;
+  border: 2px solid #222426;
+  /* padding-left: 20px; */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #aeafb3;
+  padding-left: 20px;
+}
+.form select {
+  width: 243px;
+  /* height: 48px; */
+  height: 54px;
+  border: 2px solid #222426;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #aeafb3;
+  padding-left: 20px;
+}
 
-letter-spacing: -0.5px;
+.two-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.one-input {
+  display: flex;
+}
+.one-input input {
+  flex-grow: 1;
+}
+.one-input select {
+  flex-grow: 1;
+}
+.section-three button {
+  width: 508px;
+  height: 78px;
+  background: #222426;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
 
-color: #222426;
+@media only screen and (max-width: 1000px) {
+  .content-left {
+    width: 42%;
+    padding-left: 3%;
+  }
+
+  .form {
+    width: 50%;
+    padding: 0% 3%;
+  }
+
+  .two-inputs {
+    display: inline;
+  }
+  .two-inputs input {
+    display: flex;
+    flex-grow: 1;
+    width: 98%;
+  }
+  .section-three button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .section-three {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1000px;
+    justify-content: unset;
+    /* align-items: unset; */
+    align-items: center;
+  }
+
+  .content-left {
+    width: 80%;
+    padding: 5%;
+  }
+  .form {
+    width: 70%;
+    padding: 0%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .content-left div:nth-child(1) {
+    font-size: 35px;
+    line-height: unset;
+  }
+  .form label {
+    font-size: 13px;
+  }
+
+  .section-three button {
+    font-size: 16px;
+  }
 }
