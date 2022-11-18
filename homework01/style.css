@@ -660,7 +660,7 @@ h1 {
   line-height: 68px;
   letter-spacing: -2px;
   color: #ffffff;
-  width: 33%;
+  width: 455px;
 }
 
 h1 span {
@@ -699,6 +699,9 @@ ul {
   color: #ffffff;
   padding-left: 20px;
 }
+.last-element {
+  padding-top: 35px;
+}
 .last-element div:nth-child(1) {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -710,7 +713,23 @@ ul {
 }
 
 .last-element div:nth-child(2) {
-  width: 396px;
-  height: 3px;
+  width: 162px;
+  height: 1px;
   border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 500px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  h1 span {
+    font-size: 46px;
+    line-height: 55px;
+  }
 }
