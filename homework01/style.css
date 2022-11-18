@@ -1,6 +1,8 @@
 body {
+  /* --font-family: "Lexend Deca"; */
   background-color: #ffffff;
   margin: 0;
+  
 }
 .section-one {
   width: 100vw;
@@ -474,6 +476,7 @@ body {
 
 .form{
   width: 510px;
+  padding-right: 3%;
 }
 
 .form div {
@@ -609,6 +612,10 @@ body {
   .content-left div:nth-child(1) {
     font-size: 35px;
     line-height: unset;
+    padding-top: 3%;
+  }
+  .content-left div:nth-child(2){
+    padding-bottom: 3%;
   }
   .form label{
     font-size: 13px;
@@ -623,4 +630,34 @@ body {
   .section-three button {
     font-size: 16px;
   }
+}
+
+/* SECTION FOUR */
+
+.section-four{
+  width: 1367px;
+height: 1046px;
+background-color: #aeafb3;
+}
+.main-container{
+  padding: 3%;
+}
+h1{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+  width: 36%;
+}
+
+h1 span{
+  font-family: Space Mono;
+  font-weight: 70;
+  font-size: 62px;
+  line-height: 68px;
+  letter-spacing: -2px;
+
 }
