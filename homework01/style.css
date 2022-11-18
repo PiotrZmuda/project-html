@@ -2,7 +2,6 @@ body {
   /* --font-family: "Lexend Deca"; */
   background-color: #ffffff;
   margin: 0;
-  
 }
 .section-one {
   width: 100vw;
@@ -440,9 +439,11 @@ body {
 .section-three {
   display: flex;
   width: 100vw;
-  height: 768px;
+  /* height: 768px; */
   justify-content: space-around;
   align-items: center;
+  height: 100%;
+  padding: 5% 0%;
 }
 .content-left {
   width: 42%;
@@ -474,7 +475,7 @@ body {
   color: #222426;
 }
 
-.form{
+.form {
   width: 510px;
   padding-right: 3%;
 }
@@ -531,14 +532,14 @@ body {
   width: 220px;
 } */
 
-.two-inputs select{
+.two-inputs select {
   width: 250px;
 }
 .one-input {
   display: flex;
 }
-.one-input label span{
-  color: #E74B36;
+.one-input label span {
+  color: #e74b36;
 }
 .one-input input {
   flex-grow: 1;
@@ -592,9 +593,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 1000px;
+    height: 100%;
     justify-content: unset;
-    /* align-items: unset; */
     align-items: center;
   }
 
@@ -614,17 +614,20 @@ body {
     line-height: unset;
     padding-top: 3%;
   }
-  .content-left div:nth-child(2){
+  .content-left div:nth-child(2) {
     padding-bottom: 3%;
   }
-  .form label{
+  .form label {
     font-size: 13px;
   }
   .form input {
     font-size: 13px;
   }
-  .form select{
+  .form select {
     font-size: 13px;
+  }
+  .section-three {
+    height: 100%;
   }
 
   .section-three button {
@@ -634,30 +637,80 @@ body {
 
 /* SECTION FOUR */
 
-.section-four{
-  width: 1367px;
-height: 1046px;
-background-color: #aeafb3;
+.section-four {
+  width: 100vw;
+  /* height: 1146px; */
+  height: 100%;
+  background-color: grey;
 }
-.main-container{
+.main-container {
   padding: 3%;
 }
-h1{
-  font-family: 'Lexend Deca';
+.content-container {
+  display: flex;
+}
+.learning-section {
+  padding-right: 8%;
+}
+h1 {
+  font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 900;
   font-size: 56px;
   line-height: 68px;
   letter-spacing: -2px;
-  color: #FFFFFF;
-  width: 36%;
+  color: #ffffff;
+  width: 33%;
 }
 
-h1 span{
+h1 span {
   font-family: Space Mono;
   font-weight: 70;
   font-size: 62px;
   line-height: 68px;
   letter-spacing: -2px;
+}
 
+.header-content {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+li {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+ul {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.last-element div:nth-child(1) {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.last-element div:nth-child(2) {
+  width: 396px;
+  height: 3px;
+  border: 1px solid #ffffff;
 }
